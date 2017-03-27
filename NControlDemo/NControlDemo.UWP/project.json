@@ -1,13 +1,8 @@
 ﻿{
   "dependencies": {
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
-    "NGraphics": "0.4.0",
-    "SharpDX": "3.0.1",
-    "SharpDX.Direct2D1": "3.0.1",
-    "SharpDX.Direct3D11": "3.0.1",
-    "SharpDX.DXGI": "3.0.1",
-    "SharpDX.Mathematics": "3.0.1",
-    "Xamarin.Forms": "2.2.0.45"
+    "Xamarin.Forms": "2.2.0.45",
+    "TinyIoC": "1.3.0"
   },
   "frameworks": {
     "uap10.0": {}

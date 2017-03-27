@@ -82,11 +82,6 @@ namespace NControl.UWP
         {
             throw new NotImplementedException();
         }
-
-        public TextMetrics MeasureText(string text, Font font)
-        {
-            throw new NotImplementedException();
-        }
     }
 
     /// <summary>
@@ -580,11 +575,6 @@ namespace NControl.UWP
         void ICanvas.DrawRectangle(Rect frame, Size corner, Pen pen, NGraphics.Brush brush)
         {
             DrawRectangle(frame, pen, brush);
-        }
-
-        TextMetrics ICanvas.MeasureText(string text, Font font)
-        {
-            throw new NotImplementedException();
         }
 
         #endregion
