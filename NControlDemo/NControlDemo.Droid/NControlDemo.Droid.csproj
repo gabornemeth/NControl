@@ -99,12 +99,12 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
-    <Reference Include="NGraphics, Version=0.2.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\NGraphics.0.4.0\lib\MonoAndroid10\NGraphics.dll</HintPath>
+    <Reference Include="NGraphics, Version=0.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NGraphics.0.5.0-beta1\lib\MonoAndroid10\NGraphics.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="NGraphics.Android, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\NGraphics.0.4.0\lib\MonoAndroid10\NGraphics.Android.dll</HintPath>
+      <HintPath>..\..\packages\NGraphics.0.5.0-beta1\lib\MonoAndroid10\NGraphics.Android.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

@@ -49,7 +49,6 @@ namespace NControlDemo.UWP.Renderers
                 return;
 
             Control.FontFamily = new FontFamily("/Assets/Fonts/FontAwesome.ttf#FontAwesome");
-
         }
     }
 }

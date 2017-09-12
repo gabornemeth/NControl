@@ -110,7 +110,6 @@
     <Compile Include="NControlNativeView.cs" />
     <Compile Include="NControlViewRenderer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WindowsUniversalPlatform.cs" />
     <EmbeddedResource Include="Properties\NControl.UWP.rd.xml" />
   </ItemGroup>
   <ItemGroup>
