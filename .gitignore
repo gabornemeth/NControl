@@ -23,3 +23,4 @@ Components/
 .vs/
 project.lock.json
 *.nupkg
+*.nuget.targets

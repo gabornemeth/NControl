@@ -11,9 +11,8 @@
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
-    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
     <AssemblyName>NControl.Droid</AssemblyName>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <NuGetPackageImportStamp>
@@ -41,12 +40,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="NGraphics, Version=0.5.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\NGraphics.0.5.0-beta1\lib\MonoAndroid10\NGraphics.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\packages\NGraphics.0.5.0\lib\MonoAndroid10\NGraphics.dll</HintPath>
     </Reference>
     <Reference Include="NGraphics.Android, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\NGraphics.0.5.0-beta1\lib\MonoAndroid10\NGraphics.Android.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\packages\NGraphics.0.5.0\lib\MonoAndroid10\NGraphics.Android.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />

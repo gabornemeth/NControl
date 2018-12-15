@@ -12,10 +12,9 @@
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidApplication>True</AndroidApplication>
-    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
     <AssemblyName>NControlDemo.Forms.Xamarin.Plugins.Droid</AssemblyName>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <NuGetPackageImportStamp>
@@ -100,12 +99,10 @@
   <ItemGroup>
     <Reference Include="Mono.Android" />
     <Reference Include="NGraphics, Version=0.5.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\NGraphics.0.5.0-beta1\lib\MonoAndroid10\NGraphics.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\packages\NGraphics.0.5.0\lib\MonoAndroid10\NGraphics.dll</HintPath>
     </Reference>
     <Reference Include="NGraphics.Android, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\NGraphics.0.5.0-beta1\lib\MonoAndroid10\NGraphics.Android.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\packages\NGraphics.0.5.0\lib\MonoAndroid10\NGraphics.Android.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

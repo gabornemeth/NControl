@@ -36,12 +36,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="NGraphics, Version=0.5.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\NGraphics.0.5.0-beta1\lib\Xamarin.iOS10\NGraphics.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\packages\NGraphics.0.5.0\lib\Xamarin.iOS10\NGraphics.dll</HintPath>
     </Reference>
-    <Reference Include="NGraphics.iOS, Version=1.0.6402.33464, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\NGraphics.0.5.0-beta1\lib\Xamarin.iOS10\NGraphics.iOS.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="NGraphics.iOS, Version=1.0.6809.40397, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\NGraphics.0.5.0\lib\Xamarin.iOS10\NGraphics.iOS.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />

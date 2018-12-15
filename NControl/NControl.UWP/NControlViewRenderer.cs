@@ -209,10 +209,12 @@ namespace NControl.UWP
             var canvas = Platforms.Current.CreateImageCanvas(new NGraphics.Size(width, height));
             Element.Draw(canvas, new NGraphics.Rect(0, 0, width, height));
             var bitmapSource = new BitmapImage();
-            var stream = new MemoryStream();
-            canvas.GetImage().SaveAsPng(stream);
-            stream.Seek(0, SeekOrigin.Begin);
-            bitmapSource.SetSource(stream.AsRandomAccessStream());
+            using (var stream = new MemoryStream())
+            {
+                canvas.GetImage().SaveAsPng(stream);
+                stream.Seek(0, SeekOrigin.Begin);
+                bitmapSource.SetSource(stream.AsRandomAccessStream());
+            }
             Control.Fill = new ImageBrush
             {
                 ImageSource = bitmapSource
