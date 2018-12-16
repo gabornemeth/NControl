@@ -27,7 +27,7 @@
 
 using System;
 using System.Collections.Generic;
-using Android.Graphics;
+using Android.Content;
 using Android.Runtime;
 using Android.Views;
 using NControl.Abstractions;
@@ -45,6 +45,10 @@ namespace NControl.Droid
     [Preserve(AllMembers = true)]
     public class NControlViewRenderer : VisualElementRenderer<NControlView>
     {
+        public NControlViewRenderer(Context context) : base(context)
+        {
+        }
+
         /// <summary>
         /// Used for registration with dependency service
         /// </summary>

@@ -181,13 +181,17 @@ namespace NControlDemo.FormsApp.Views
             });
 
             // Add map
-            var map = new Map();
-            var mapOverlay = new NControlView { 
-                BackgroundColor = Xamarin.Forms.Color.Transparent,
-            };
-            mapOverlay.OnTouchesBegan += async (sender, e) => await ToggleChromeAsync();
-            _mapContainer.Children.Add(map, () => _mapContainer.Bounds);
-            _mapContainer.Children.Add(mapOverlay, () => _mapContainer.Bounds);
+            if (Device.RuntimePlatform != Device.UWP)
+            {
+                var map = new Map();
+                var mapOverlay = new NControlView
+                {
+                    BackgroundColor = Xamarin.Forms.Color.Transparent,
+                };
+                mapOverlay.OnTouchesBegan += async (sender, e) => await ToggleChromeAsync();
+                _mapContainer.Children.Add(map, () => _mapContainer.Bounds);
+                _mapContainer.Children.Add(mapOverlay, () => _mapContainer.Bounds);
+            }
         }
 
         /// <summary>
